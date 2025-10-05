@@ -69,7 +69,7 @@ export default function Camera() {
   const handleSubmit = () => {
     if (status === "start") {
       // startステータス：答えが"32"かチェック
-      if (inputValue === "32") {
+      if (inputValue === "32" || inputValue === "３２") {
         setInputValue("");
         setStatus("quiz");
         setCurrentQuizIndex(0);
