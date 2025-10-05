@@ -51,15 +51,15 @@ export default function Camera() {
 
   // クイズデータ（q2~q10の9問）
   const quizzes: QuizData[] = [
-    { image: "/images/q2.webp", answers: ["答え2", "こたえ2"], supportText: "カタカナ6文字" },
-    { image: "/images/q3.webp", answers: ["答え3", "こたえ3"], supportText: "カタカナ4文字" },
-    { image: "/images/q4.webp", answers: ["答え4", "こたえ4"], supportText: "カタカナ9文字" },
-    { image: "/images/q5.webp", answers: ["答え5", "こたえ5"], supportText: "カタカナ6文字" },
-    { image: "/images/q6.webp", answers: ["答え6", "こたえ6"], supportText: "カタカナ4文字" },
-    { image: "/images/q7.webp", answers: ["答え7", "こたえ7"], supportText: "カタカナ7文字" },
-    { image: "/images/q8.webp", answers: ["答え8", "こたえ8"], supportText: "カタカナ4文字" },
-    { image: "/images/q9.webp", answers: ["答え9", "こたえ9"], supportText: "カタカナ4文字" },
-    { image: "/images/q10.webp", answers: ["答え10", "こたえ10"], supportText: "カタカナ8文字" },
+    { image: "/images/q2.webp", answers: ["ニシニッポリ", "にしにっぽり"], supportText: "カタカナ6文字" },
+    { image: "/images/q3.webp", answers: ["サロマコ", "さろまこ"], supportText: "カタカナ4文字" },
+    { image: "/images/q4.webp", answers: ["スガワラノミチザネ", "すがわらのみちざね"], supportText: "カタカナ9文字" },
+    { image: "/images/q5.webp", answers: ["スタンダール", "すたんだーる"], supportText: "カタカナ6文字" },
+    { image: "/images/q6.webp", answers: ["オットリ", "おっとり"], supportText: "カタカナ4文字" },
+    { image: "/images/q7.webp", answers: ["ポストリュード", "ぽすとりゅーど"], supportText: "カタカナ7文字" },
+    { image: "/images/q8.webp", answers: ["レバノン", "ればのん"], supportText: "カタカナ4文字" },
+    { image: "/images/q9.webp", answers: ["ギョフク", "ぎょふく"], supportText: "カタカナ4文字" },
+    { image: "/images/q10.webp", answers: ["シゲムネユウゾウ", "しげむねゆうぞう"], supportText: "カタカナ8文字" },
   ];
 
   const handleFooterClick = () => {
