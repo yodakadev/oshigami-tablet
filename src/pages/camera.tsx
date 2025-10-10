@@ -58,7 +58,7 @@ export default function Camera() {
     { image: "/images/q6.webp", answers: ["オットリ", "おっとり"], supportText: "カタカナ4文字" },
     { image: "/images/q7.webp", answers: ["ポストリュード", "ぽすとりゅーど"], supportText: "カタカナ7文字" },
     { image: "/images/q8.webp", answers: ["レバノン", "ればのん"], supportText: "カタカナ4文字" },
-    { image: "/images/q9.webp", answers: ["ギョクフ", "ぎょくふ"], supportText: "カタカナ4文字" },
+    { image: "/images/q9.webp", answers: ["カマキリ", "かまきり"], supportText: "カタカナ4文字" },
     { image: "/images/q10.webp", answers: ["シゲムネユウゾウ", "しげむねゆうぞう"], supportText: "カタカナ8文字" },
   ];
 
