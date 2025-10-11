@@ -237,7 +237,7 @@ export default function Camera() {
       {status === "clear" && (
         <div className="flex-1 flex items-center justify-center p-8">
           {/* photo.webp */}
-          <img src="/images/photo.webp" alt="Photo" className="max-w-full h-auto" />
+          <img src="/images/photo1.webp" alt="Photo" className="max-w-full h-auto" />
         </div>
       )}
 
