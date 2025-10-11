@@ -184,7 +184,8 @@ export default function Camera() {
             </div>
 
             {/* 入力エリア - 絶対位置配置 */}
-            <div className="absolute bottom-40 left-0 right-0 w-full flex flex-col items-center px-8">
+            {/* TODO:解答欄位置 */}
+            <div className="absolute bottom-20 left-0 right-0 w-full flex flex-col items-center px-8">
               {/* サポート文章 */}
               <p className="text-3xl mb-2 text-start w-[90%] max-w-2xl text-white font-serif">
                 {quizzes[currentQuizIndex].supportText}
